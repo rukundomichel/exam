@@ -1,0 +1,14 @@
+[33mWARNING: SESSION_SECRET is not set or is using the default value. Set a strong SESSION_SECRET in .env for production.[0m
+Mongo connect config: {
+  mongoUri: 'mongodb://localhost:27017/crpms',
+  isSrv: false,
+  tlsInsecure: false,
+  mongooseOptions: {
+    useNewUrlParser: true,
+    useUnifiedTopology: true,
+    serverSelectionTimeoutMS: 10000
+  }
+}
+Server running on port 5001
+MongoDB connected (reconnected)
+MongoDB connected

@@ -1,0 +1,36 @@
+nohup: ignoring input
+[33mWARNING: SESSION_SECRET is not set or is using the default value. Set a strong SESSION_SECRET in .env for production.[0m
+Mongo connect config: {
+  mongoUri: 'mongodb://localhost:27017/crpms',
+  isSrv: false,
+  tlsInsecure: false,
+  mongooseOptions: {
+    useNewUrlParser: true,
+    useUnifiedTopology: true,
+    serverSelectionTimeoutMS: 10000
+  }
+}
+Server running on port 5001
+MongoDB connected (reconnected)
+MongoDB connected
+[auth] login attempt username=buyer1 ip=::1
+[auth] login success for buyer1 sessionId= 7E6vMEhVc8BW93g-1ed_a-JtSORwBFfr
+[auth] login attempt username=buyer1 ip=::1
+[auth] login success for buyer1 sessionId= zpGixRoacmkW4y7GjZBf9-DgUYdmrWad
+[auth] login attempt username=buyer ip=::1
+[auth] login failed: user not found buyer
+[auth] login attempt username=buyer ip=::1
+[auth] login failed: user not found buyer
+[auth] login attempt username=buyer ip=::1
+[auth] login failed: user not found buyer
+[auth] login attempt username=buyer ip=::1
+[auth] login failed: user not found buyer
+[auth] login attempt username=mich ip=::1
+[auth] login success for mich sessionId= I-y-CChm4esaTv_JyIv84_dPtZ0THs7y
+[auth] login attempt username=ruku ip=::1
+[auth] login success for ruku sessionId= 5TLLy20zIbXM_n4bGNEnJPn1C6kR9BWc
+[auth] login attempt username=mich ip=::1
+[auth] login success for mich sessionId= I5oAu0ntHS11QzRHeM-JxP7nZTV4CxSt
+[auth] login attempt username=mich ip=::1
+[auth] login success for mich sessionId= 40E8j9xmHBFApn1XmlP4cRJMBLKSfaiT
+MongoDB disconnected

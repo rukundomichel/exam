@@ -1,0 +1,2 @@
+/* minimal globals; Tailwind via CDN used, but keep a small rule for body */
+body { margin: 0; font-family: Inter, ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial; }
